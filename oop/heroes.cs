@@ -12,7 +12,7 @@ namespace oop_basic.oop
         public string type;
 
         public int power;
-        public int health;
+        public double health;
         public int defense;
 
         private string gender;
@@ -38,6 +38,34 @@ namespace oop_basic.oop
             Console.WriteLine(name + " " + type + " " + Gender + " " + heroesClass + " " + health + " " + power + " " + defense);
         }
 
+        public void attack(Heroes enemy)
+        {
+            Console.WriteLine(this.name + " attacking " + enemy.name);
+            enemy.getAttacked(this, this.power);
+        }
+
+        public void getAttacked(Heroes enemy, int enemyPower)
+        {
+            Console.WriteLine(this.name + " get attacked by " + enemy.name);
+            double attack_received = (enemyPower*10) / this.defense;
+            Console.WriteLine(enemyPower);
+            Console.WriteLine(this.defense);
+            Console.WriteLine(attack_received);
+            Console.WriteLine("Damage felt : " + (attack_received));
+            this.health -= attack_received;
+            Console.WriteLine("Health of" + this.name + " is now " + this.health);
+        }
+
+        public void healthUp(int up)
+        {
+            health += up;
+        }
+
+        public double getHealth()
+        {
+            return health;
+        }
+
         public string isStrong()
         {
             string powerScale;
@@ -56,15 +84,6 @@ namespace oop_basic.oop
             return powerScale;
         }
 
-        public void healthUp(int up)
-        {
-            health += up;
-        }
-
-        public int getHealth()
-        {
-            return health;
-        }
 
         public string Gender
         {
@@ -108,15 +127,9 @@ namespace oop_basic.oop
             Heroes heroes1 = new Heroes("hikamizna", "warrior", "malexx", HeroesClass.Archer, 100, 30, 60);
             Heroes heroes2 = new Heroes("hikamiznax", "assassin", "male", HeroesClass.Mage, 120, 20, 50);
             Heroes heroes3 = new Heroes("hikamiznay", "archer", "female", HeroesClass.Berserker, 80, 40, 70);
-            /*Console.WriteLine(heroes1.isStrong());
-            Console.WriteLine(heroes2.isStrong());
-            Console.WriteLine(heroes3.isStrong());
-            Console.WriteLine(Heroes.heroesCount);
-            Console.WriteLine(heroes1.getHeroesCount());*/
 
-            heroes1.getInfo();
-            Console.WriteLine(heroes1.getHealth()); 
 
+            heroes1.attack(heroes2);
         }
     }
     
