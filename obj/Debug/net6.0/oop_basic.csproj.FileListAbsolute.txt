@@ -1,0 +1,15 @@
+D:\Coding Project\c# tutorial\oop\oop_basic\oop_basic\obj\Debug\net6.0\oop_basic.csproj.AssemblyReference.cache
+D:\Coding Project\c# tutorial\oop\oop_basic\oop_basic\obj\Debug\net6.0\oop_basic.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding Project\c# tutorial\oop\oop_basic\oop_basic\obj\Debug\net6.0\oop_basic.AssemblyInfoInputs.cache
+D:\Coding Project\c# tutorial\oop\oop_basic\oop_basic\obj\Debug\net6.0\oop_basic.AssemblyInfo.cs
+D:\Coding Project\c# tutorial\oop\oop_basic\oop_basic\obj\Debug\net6.0\oop_basic.csproj.CoreCompileInputs.cache
+D:\Coding Project\c# tutorial\oop\oop_basic\oop_basic\bin\Debug\net6.0\oop_basic.exe
+D:\Coding Project\c# tutorial\oop\oop_basic\oop_basic\bin\Debug\net6.0\oop_basic.deps.json
+D:\Coding Project\c# tutorial\oop\oop_basic\oop_basic\bin\Debug\net6.0\oop_basic.runtimeconfig.json
+D:\Coding Project\c# tutorial\oop\oop_basic\oop_basic\bin\Debug\net6.0\oop_basic.dll
+D:\Coding Project\c# tutorial\oop\oop_basic\oop_basic\bin\Debug\net6.0\oop_basic.pdb
+D:\Coding Project\c# tutorial\oop\oop_basic\oop_basic\obj\Debug\net6.0\oop_basic.dll
+D:\Coding Project\c# tutorial\oop\oop_basic\oop_basic\obj\Debug\net6.0\refint\oop_basic.dll
+D:\Coding Project\c# tutorial\oop\oop_basic\oop_basic\obj\Debug\net6.0\oop_basic.pdb
+D:\Coding Project\c# tutorial\oop\oop_basic\oop_basic\obj\Debug\net6.0\oop_basic.genruntimeconfig.cache
+D:\Coding Project\c# tutorial\oop\oop_basic\oop_basic\obj\Debug\net6.0\ref\oop_basic.dll
