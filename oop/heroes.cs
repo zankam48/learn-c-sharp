@@ -20,6 +20,24 @@ namespace oop_basic.oop
 
             Console.WriteLine(name + " " + type + " " + power);
         }
+
+        public string isStrong()
+        {
+            string powerScale;
+            if ( power > 100)
+            {
+                powerScale = "he is very strong";
+            }
+            else if ( power > 50 && power < 100)
+            {
+                powerScale = "he is ordinary";
+            }
+            else
+            {
+                powerScale = "he is weak";
+            }
+            return powerScale;
+        }
     }
 
     class Program
@@ -27,8 +45,7 @@ namespace oop_basic.oop
         static void Main(string[] args)
         {
             Heroes heroes1 = new Heroes("hikamizna", "warrior", 20);
-
-            Console.WriteLine(heroes1.name);
+            Console.WriteLine(heroes1.isStrong());
         }
     }
     
